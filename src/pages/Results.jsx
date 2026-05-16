@@ -30,7 +30,7 @@ function Results() {
       if (i < steps.length) setStep(steps[i])
     }, 1000)
 
-    axios.post('http://127.0.0.1:8000/analyze', {
+    axios.post('https://infolens-506a.onrender.com/analyze', {
       text: articleText,
       url: ''
     })
